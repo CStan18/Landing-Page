@@ -6,24 +6,23 @@
   color: #dedede
 }
 
-.logo-and-name {
-  list-style: none;
-  display: flex;
-}
-
-.name {
-  margin: 15px;
-}
-
 .logo {
-  background-color: transparent;
-  margin: 20px;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
 .section-1 {
   background-color: #13253b;
-  height: 250px;
-  padding: 20px;
+  height: 350px;
+}
+
+.section-1-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section-1-content-left {
+  width: 200px;
 }
 
 nav {
