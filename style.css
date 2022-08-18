@@ -19,10 +19,19 @@
 .section-1-content {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 60px;
 }
 
 .section-1-content-left {
   width: 200px;
+}
+
+.title {
+  font-size:xx-large;
+}
+
+.content-under-title {
+  
 }
 
 nav {
@@ -30,7 +39,7 @@ nav {
   justify-content: space-between;
 }
 
-.section-1-left-links {
+.section-1-right-links {
   display: flex;
   gap: 20px;
   list-style: none;
