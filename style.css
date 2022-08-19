@@ -19,19 +19,35 @@
 .section-1-content {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .section-1-content-left {
-  width: 200px;
+  width: 300px;
 }
 
 .title {
   font-size:xx-large;
+  font-weight: bolder;
 }
 
 .content-under-title {
-  
+  font-size: small;
+}
+
+button {
+  color:black;
+  margin-top: 5px;
+  background-color: #008CBA;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0px;
+  transition-duration: 0.4s;
+}
+
+.button1:hover {
+  background-color:cornflowerblue;
+  color: white;
 }
 
 nav {
