@@ -63,9 +63,12 @@ button {
 .image-placeholder {
   width: 300px;
   height: 150px;
-  background-color: #dedede;
   flex-shrink: 0;
   margin-right: 100px;
+}
+
+.section-1-content-image {
+  border-radius: 25px;
 }
 
 .button1:hover {
