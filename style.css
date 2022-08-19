@@ -32,7 +32,8 @@
 
 .section-1-content-left {
   width: 350px;
-  
+  margin-bottom: 50px;
+  flex-shrink: 0;
 }
 
 .title {
@@ -64,7 +65,7 @@ button {
   height: 150px;
   background-color: #dedede;
   flex-shrink: 0;
-  margin: 5px;
+  margin-right: 100px;
 }
 
 .button1:hover {
