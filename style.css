@@ -55,6 +55,13 @@ button {
   transition-duration: 0.4s;
 }
 
+.image-placeholder {
+  width: 300px;
+  height: 150px;
+  background-color: #dedede;
+  flex: 0;
+}
+
 .button1:hover {
   background-color:cornflowerblue;
   color: white;
