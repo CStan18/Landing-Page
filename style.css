@@ -32,7 +32,7 @@
 
 .section-1-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 40px;
   margin-left: 80px;
   margin-top: 20px;
@@ -152,6 +152,7 @@ a:link {
   padding-top: 70px;
   display: flex;
   flex-shrink: 0;
+  justify-content: space-around;
 }
 
 .sec-3-content {
@@ -170,7 +171,6 @@ a:link {
   font-weight: 100;
   font-style: italic;
   font-family:Arial, Helvetica, sans-serif;
-  
 }
 
 .sec-3-quote-author {
@@ -189,7 +189,6 @@ a:link {
   padding-top: 78px;
   padding-left: 45px;
   padding-right: 45px;
-  flex-shrink: 0;
 }
 
 .sec-4-content {
@@ -200,7 +199,7 @@ a:link {
   padding: 20px;
   padding-left: 80px;
   padding-right: 100px;
-  
+  justify-content: space-around;  
 }
 
 .sec-4-text {
@@ -208,6 +207,7 @@ a:link {
   flex-direction: column-reverse;
   padding-bottom: 20px;
   width: 400px;
+  flex-shrink: 0;
 }
 
 .sec-4-header-text {
@@ -225,6 +225,7 @@ a:link {
   position: relative;
   padding: 20px;
   width: 240px;
+  flex-shrink: 0;
 }
 
 .center {
@@ -243,4 +244,15 @@ a:link {
 .sec-4-button:hover {
   background-color: #285fb8;
   color: white;
+}
+
+/* Footer */
+
+footer {
+  background-color: #1F2937;
+  height: 60px;
+  text-align: center;
+  padding: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
