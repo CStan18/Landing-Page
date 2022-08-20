@@ -218,7 +218,26 @@ a:link {
   flex: 1;
 }
 
-.sec-4-button {
-  background-color: antiquewhite;
+.sec-4-button-placeholder {
   flex: 1;
+  position: relative;
+  padding: 20px;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.sec-4-button {
+  border: 2px solid white;
+}
+
+.sec-4-button:hover {
+  background-color:darkslategrey;
+  color: white;
 }
