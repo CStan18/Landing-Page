@@ -189,6 +189,7 @@ a:link {
   padding-top: 78px;
   padding-left: 45px;
   padding-right: 45px;
+  flex-shrink: 0;
 }
 
 .sec-4-content {
@@ -203,25 +204,24 @@ a:link {
 
 .sec-4-text {
   background-color: #1F2937;
-  flex: 2;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
+  padding-bottom: 20px;
 }
 
 .sec-4-header-text {
   background-color: brown;
-  flex: 1;
 }
 
 .sec-4-detail-text {
   background-color:darkcyan;
-  flex: 1;
 }
 
 .sec-4-button-placeholder {
-  flex: 1;
+  background-color: #dedede;
   position: relative;
   padding: 20px;
+  width: 250px;
 }
 
 .center {
@@ -234,7 +234,7 @@ a:link {
 }
 
 .sec-4-button {
-  border: 2px solid white;
+  border: 2px solid white;  
 }
 
 .sec-4-button:hover {
