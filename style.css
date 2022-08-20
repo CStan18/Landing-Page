@@ -144,3 +144,15 @@ a:link {
   text-align: center;
 }
 
+/* Section-3 */
+
+.sec-3 {
+  background-color: #E5E7EB;
+  height: 320px;
+}
+
+.sec-3-content {
+  background-color:#1F2937;
+  height: 200px;
+
+}
