@@ -81,7 +81,7 @@ button {
 }
 
 .button1:hover {
-  background-color:darkslategrey;
+  background-color: #285fb8;
   color: white;
 }
 
@@ -204,7 +204,6 @@ a:link {
 }
 
 .sec-4-text {
-  background-color: #1F2937;
   display: flex;
   flex-direction: column-reverse;
   padding-bottom: 20px;
@@ -212,15 +211,17 @@ a:link {
 }
 
 .sec-4-header-text {
-  background-color: brown;
+  font-size: larger;
+  font-weight: bold;
+  color: white;
 }
 
 .sec-4-detail-text {
-  background-color:darkcyan;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
 
 .sec-4-button-placeholder {
-  background-color: #dedede;
   position: relative;
   padding: 20px;
   width: 240px;
@@ -240,6 +241,6 @@ a:link {
 }
 
 .sec-4-button:hover {
-  background-color:darkslategrey;
+  background-color: #285fb8;
   color: white;
 }
