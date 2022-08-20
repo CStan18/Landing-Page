@@ -149,10 +149,11 @@ a:link {
 .sec-3 {
   background-color: #E5E7EB;
   height: 320px;
+  padding: 50px;
+  padding-top: 70px;
 }
 
 .sec-3-content {
   background-color:#1F2937;
-  height: 200px;
-
+  height: 180px;
 }
