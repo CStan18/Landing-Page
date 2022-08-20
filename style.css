@@ -98,7 +98,6 @@ a:link {
 /* Section 2 */
 
 .section-2 {
-  background-color: aliceblue;
   height: 340px;
   display: flex;
   flex-direction: column;
@@ -114,7 +113,6 @@ a:link {
 .section-2-title {
   color: black;
   font-size: 24px;
-  font-weight: bolder;
   font-family: 'Bree';
 }
 
@@ -127,7 +125,6 @@ a:link {
 }
 
 .section-2-image-placeholder {
-  background-color: aliceblue;
   height: 175px;
   width: 110px;
   display: flex;
