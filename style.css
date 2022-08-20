@@ -200,6 +200,7 @@ a:link {
   padding: 20px;
   padding-left: 80px;
   padding-right: 100px;
+  
 }
 
 .sec-4-text {
@@ -207,6 +208,7 @@ a:link {
   display: flex;
   flex-direction: column-reverse;
   padding-bottom: 20px;
+  width: 400px;
 }
 
 .sec-4-header-text {
@@ -221,7 +223,7 @@ a:link {
   background-color: #dedede;
   position: relative;
   padding: 20px;
-  width: 250px;
+  width: 240px;
 }
 
 .center {
